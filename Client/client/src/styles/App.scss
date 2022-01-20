@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rokkitt&display=swap");
+
+body {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  align-items: center;
+  // background-color: whitesmoke;
+  background-image: url(https://i.imgur.com/XRS8qXN.png);
+  margin: 0;
+  padding: 0;
+  p {
+    font-family: "Rokkitt", serif;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    padding: 50px;
+  }
+}
+
+.css-1i5alow-MuiButtonBase-root-MuiFab-root-MuiSpeedDial-fab {
+  background-color: #69696956 !important;
+  background-size: cover;
+  // #8BB0D9
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+  // fill: #0364d4 !important;
+  fill: black !important;
+}

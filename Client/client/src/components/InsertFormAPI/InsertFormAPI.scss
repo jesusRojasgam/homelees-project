@@ -1,0 +1,62 @@
+.insertForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
+
+  h1 {
+    margin: 12px;
+    padding: 10px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 45px;
+    line-height: 28px;
+  }
+  label {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 25px;
+    margin: 15px;
+  }
+  button {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-weight: 500;
+    color: black;
+    background-color: #8bb0d9;
+    border-radius: 5px;
+    border: none;
+  }
+  img {
+    width: 20px;
+    height: 20px;
+  }
+  input {
+    text-align: center;
+    color: grey;
+  }
+}
+
+.radio {
+  margin: 15px;
+  text-align: start;
+}
+.radio-concreto {
+  margin: 10px;
+}
+
+.placeForm {
+  margin: 15px;
+  padding: 10px;
+}
+.inputButton {
+  border: none;
+  width: 61%;
+  height: 30px;
+  margin: 5px;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
